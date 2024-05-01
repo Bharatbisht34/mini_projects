@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+nav {
+    background-color: #dbd4d4;
+    text-align: center;
+    border-bottom: 1px solid rgb(148, 145, 145);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.calc {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+#Calculate{
+   width: 150px;
+   height: 35px;
+   border-radius: 20px;
+   background-color: #e6e9e3;   
+   
+}

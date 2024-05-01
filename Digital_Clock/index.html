@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-color: #151515;
+            color: white;
+        }
+
+        nav {
+            background-color: #aba6a6;
+            border-bottom: 1.5px solid rgb(105, 94, 94);
+            text-align: center;
+        }
+
+        button {
+            margin: 6px;
+            padding: 10px 30px;
+            border-radius: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(3, 2, 2);
+        }
+
+        .center {
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #clock {
+            font-size: 40px;
+            background-color: orange;
+            padding: 20px 50px;
+            margin-top: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <button> <a href="/">Home</a></button>
+        <button><a href="https://www.youtube.com/@chaiaurcode">Youtube Channel</a></button>
+    </nav>
+
+    <div class="center">
+        <div id="banner"><span>Your local time </span></div>
+        <div id="clock"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
